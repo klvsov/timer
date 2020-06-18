@@ -35,7 +35,6 @@ window.addEventListener('DOMContentLoaded', function () {
 
         function updateClock(){
             let t = getTimeRemaining(endtime);
-            console.log(t);
             if (t.hours < 10) {
                 hours.textContent = '0' + t.hours;
             } else {
